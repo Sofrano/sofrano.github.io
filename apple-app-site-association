@@ -4,34 +4,23 @@
     "details": [
       {
         "appID": "N37ZT2S927.kz.homebank.mobile.debug",
-        "paths": [
-          "/path-for-redirectionl/*"
-        ]
+        "paths": ["*", "/"]
       },
       {
         "appID": "N37ZT2S927.kz.homebank.mobile.dev",
-        "paths": [
-          "/path-for-redirectionl/*"
-        ]
+        "paths": ["*", "/"]
       },
       {
         "appID": "N37ZT2S927.kz.homebank.mobile",
-        "paths": [
-          "/path-for-redirectionl/*"
-        ]
+        "paths": ["*", "/"]
       },
       {
         "appID": "N37ZT2S927.kz.homebank.mobile.staging",
-        "paths": [
-          "/path-for-redirectionl/*"
-        ]
+        "paths": ["*", "/"]
       },
       {
         "appID": "2DYT2C564U.legalce.bar.zan",
-        "paths": [
-          "*",
-          "/"
-        ]
+        "paths": ["*", "/"]
       }
     ]
   }
