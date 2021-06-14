@@ -1,8 +1,273 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    hello
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="VineCrawl is an app for wineries. Hours, wines, fees, events, activities, and specials, information right at your fingertips!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Josh Walton">
+    
+<meta property="og:title" content="VineCrawl - Explore Local Wineries" />
+<meta property="og:description"
+content="VineCrawl is your best guide for local wineries" />
+<meta property="og:type" content="website" />
+<meta property="al:ios:app_store_id" content="1152223737" />
+<meta property="al:ios:app_name" content="VineCrawl" />
+<meta property="og:url" content="https://www.vinecrawl.com" />
+<meta property="og:image" content="https://www.vinecrawl.com/graphics/fb-og.png" />
+<meta property="og:site_name" content="VineCrawl" />
+<meta property="fb:app_id" content="308888279563542" />
+
+<meta name="twitter:card" content="app">
+<meta name="twitter:site" content="@vinecrawl">
+<meta name="twitter:description" content="VineCrawl is your best guide for local wineries">
+<meta name="twitter:app:country" content="US">
+<meta name="twitter:app:name:iphone" content="VineCrawl">
+<meta name="twitter:app:id:iphone" ccontent="VineCrawl">
+<meta name="twitter:app:id:ipad" content="1152223737">
+<meta name="twitter:app:name:ipad" ontent="1152223737">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/graphics/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/graphics/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/graphics/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/graphics/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/graphics/favicons/safari-pinned-tab.svg" color="#4d004d">
+    <link rel="shortcut icon" href="/graphics/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/graphics/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#4D004D">
+
+
+    <title>VineCrawl - Explore Local Wineries</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-10293096-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-10293096-4');
+</script>
+
+
+    <meta name="google-site-verification" content="9YgimsrqUfyc-xLvf2flCZGdN_TZNS8Pi_wHp-T5qX0" />
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<!-- Latest compiled and minified CSS -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.js"></script>
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/795fc52498.js"></script>
+
+    
+    <link href="/css/main.css"    rel='stylesheet' type='text/css'>
+    <script>/*!
+ * jQuery UI Touch Punch 0.2.3
+ *
+ * Copyright 2011–2014, Dave Furfero
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * Depends:
+ *  jquery.ui.widget.js
+ *  jquery.ui.mouse.js
+ */
+! function(a) {
+    function f(a, b) { if (!(a.originalEvent.touches.length > 1)) { a.preventDefault(); var c = a.originalEvent.changedTouches[0],
+                d = document.createEvent("MouseEvents");
+            d.initMouseEvent(b, !0, !0, window, 1, c.screenX, c.screenY, c.clientX, c.clientY, !1, !1, !1, !1, 0, null), a.target.dispatchEvent(d) } } if (a.support.touch = "ontouchend" in document, a.support.touch) { var e, b = a.ui.mouse.prototype,
+            c = b._mouseInit,
+            d = b._mouseDestroy;
+        b._touchStart = function(a) { var b = this;!e && b._mouseCapture(a.originalEvent.changedTouches[0]) && (e = !0, b._touchMoved = !1, f(a, "mouseover"), f(a, "mousemove"), f(a, "mousedown")) }, b._touchMove = function(a) { e && (this._touchMoved = !0, f(a, "mousemove")) }, b._touchEnd = function(a) { e && (f(a, "mouseup"), f(a, "mouseout"), this._touchMoved || f(a, "click"), e = !1) }, b._mouseInit = function() { var b = this;
+            b.element.bind({ touchstart: a.proxy(b, "_touchStart"), touchmove: a.proxy(b, "_touchMove"), touchend: a.proxy(b, "_touchEnd") }), c.call(b) }, b._mouseDestroy = function() { var b = this;
+            b.element.unbind({ touchstart: a.proxy(b, "_touchStart"), touchmove: a.proxy(b, "_touchMove"), touchend: a.proxy(b, "_touchEnd") }), d.call(b) } } }(jQuery);</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5750848228973967",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
-<body>
+
+<body class=" graps-bg-image">
+<div id='main-div' class='container-fluid padding-navbar'>
+<nav class="navbar navbar-expand-md fixed-top ">
+    <a id="navigationLogo" class="navbar-brand" href="/">
+        <img id="vinecrawl_logo" alt="VineCrawl logo" src="/graphics/clearwhitelogo.png"  >
+        VineCrawl
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/faq">F.A.Q</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/wineries">Wineries</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+      </li>
+    </ul>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="signup">Winery Sign Up</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="login">Log In</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+    <!-- Main Content -->
+    <main class="container">
+<!--<div class="">
+</div>-->
+
+<div class="row bg-primary mx-0 mt-1 text-white">
+  <div class="col-4">
+    <h3 class="text-center">For iOS and Android
+    </h3>
+    <a href="https://itunes.apple.com/us/app/vinecrawl/id1152223737?mt=8"
+    class="iOS-app-badge"></a>
+    <a href="https://play.google.com/store/apps/details?id=com.vinecrawl.vinecrawl&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="android-app-badge"></a>
+  </div>
+  <div class="col-4">
+    <h3 class="text-center">- Available for -</h3>
+  </div>
+  <div class="col-4">
+    <h3 class="text-center">And the<br><a href="/wineries" class='btn btn-primary btn-lg'>Web</a></h3>
+  </div>
+</div><div id="carouselExampleIndicators" class="carousel slide "  data-interval="3000" data-ride="carousel">
+    <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+              </ol>
+    <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.vinecrawl.com/carousel-images/app_store_google_play.png" alt="Available on the App Store and Google Play!">
+            </div>
+                        <div class="carousel-item ">
+                <img class="d-block w-100" src="https://www.vinecrawl.com/carousel-images/root-view.png" alt="Explore local wineries">
+            </div>
+                        <div class="carousel-item ">
+                <img class="d-block w-100" src="https://www.vinecrawl.com/carousel-images/tastingroom.png" alt="Know about the tasting rooms before hand">
+            </div>
+                        <div class="carousel-item ">
+                <img class="d-block w-100" src="https://www.vinecrawl.com/carousel-images/wine-list.png" alt="Know about the wines that winery has">
+            </div>
+                </div>
+</div>
+<!-- -->
+<div class="jumbotron flyer square-corners">
+  <p class="lead">Are you a wine aficionado living in or visiting the Central Coast of California? </p>
+
+  <p class="lead">Ever ask yourself:</p>
+  <ul class="lead logo-bullets">
+    <li>Where are the tasting rooms?</li>
+    <li>When are they open?</li>
+    <li>What do they offer me?</li>
+    <li>How much are their tasting fees?</li>
+  </ul>
+  <p class="lead">Your head could be spinning before you even start the Crawl! You just want the details easily accessible and easy.</p>
+  <p class="lead">VineCrawl to the rescue. This app doesn’t just let you know where each winery tasting room is on the Central Coast of California - now you can know everything else about them beforehand.</p>
+  <p class="lead">Hours, wines, fees, events, specials… Information right at your fingertips so you can be more fully in command of how you spend your time and money!</p>
+  <p class="lead">Are you a winery? Sign up <a href="signup"><u>here</u></a>.
+    <br>
+    Feel free to <a href="contact"><u>Contact Us</u></a> or visit our <a class="" href="faq"><u>F.A.Q</u></a> page.</p>
+</div>
+   </main>
+</div>
+<!--Footer-->
+<div id='footer' class=" vinecrawl-flyer">
+
+    <!--Footer Links-->
+        <div class="d-none d-md-block row">
+
+            <!--First column-->
+            <div class="col-md-2 offset-md-6">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/signup">  Winery Sign Up </a>
+                    </li>
+                    <li>
+                        <a href="/login"> Login </a>
+                    </li>
+                    <li>
+                        <a href="/forgotpassword.php"> Forgot Password </a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li>
+                    <a href="about"> About </a>
+                    </li>
+                    <li>
+                    <a href="faq"> F.A.Q </a>
+                    </li>
+                    <li>
+                    <a href="contact"> Contact Us </a>
+                    </li>
+                    <li>
+                    <ul class="list-inline  mx-auto justify-content-center">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/vinecrawl">
+                        <i class="fab fa-twitter-square text-white" style="font-size:36px"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/vinecrawl">
+                        <i class="fab fa-facebook-square text-white" style="font-size:36px"></i>
+                        </a>
+                    </li>
+                    </ul>
+
+                    </li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+            <!--Second column-->
+            <div class="col-md-2">
+              <!--Copyright-->
+              <div class="container footer-copyright ">
+                  © 2021 Copyright:
+                  <a href="/"> VineCrawl.com </a>
+              </div>
+              <!--/.Copyright-->
+
+            </div>
+            <!--/.Second column-->
+        </div>
+
+    <!--/.Footer Links-->
+
+
+</div>
+<!--/.Footer-->
 
 </body>
+
 </html>
