@@ -3,25 +3,25 @@
     "apps": [],
     "details": [
       {
-        "appID": "id440635615.kz.homebank.mobile.debug",
+        "appID": "N37ZT2S927.kz.homebank.mobile.debug",
         "paths": [
           "/path-for-redirectionl/*"
         ]
       },
       {
-        "appID": "id440635615.kz.homebank.mobile.dev",
+        "appID": "N37ZT2S927.kz.homebank.mobile.dev",
         "paths": [
           "/path-for-redirectionl/*"
         ]
       },
       {
-        "appID": "id440635615.kz.homebank.mobile",
+        "appID": "N37ZT2S927.kz.homebank.mobile",
         "paths": [
           "/path-for-redirectionl/*"
         ]
       },
       {
-        "appID": "id440635615.kz.homebank.mobile.staging",
+        "appID": "N37ZT2S927.kz.homebank.mobile.staging",
         "paths": [
           "/path-for-redirectionl/*"
         ]
