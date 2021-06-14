@@ -16,6 +16,6 @@
         {
             "appID": "N37ZT2S927.kz.homebank.mobile.staging",
             "paths": ["/path-for-redirectionl/*"]
-        },]
+        }]
     }
 }
