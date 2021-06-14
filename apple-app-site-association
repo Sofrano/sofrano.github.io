@@ -1,21 +1,38 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [{
-            "appID": "N37ZT2S927.kz.homebank.mobile.debug",
-            "paths": ["/path-for-redirectionl/*"]
-        },
-        {
-            "appID": "N37ZT2S927.kz.homebank.mobile.dev",
-            "paths": ["/path-for-redirectionl/*"]
-        },
-        {
-            "appID": "N37ZT2S927.kz.homebank.mobile",
-            "paths": ["/path-for-redirectionl/*"]
-        },
-        {
-            "appID": "N37ZT2S927.kz.homebank.mobile.staging",
-            "paths": ["/path-for-redirectionl/*"]
-        }]
-    }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "id440635615.kz.homebank.mobile.debug",
+        "paths": [
+          "/path-for-redirectionl/*"
+        ]
+      },
+      {
+        "appID": "id440635615.kz.homebank.mobile.dev",
+        "paths": [
+          "/path-for-redirectionl/*"
+        ]
+      },
+      {
+        "appID": "id440635615.kz.homebank.mobile",
+        "paths": [
+          "/path-for-redirectionl/*"
+        ]
+      },
+      {
+        "appID": "id440635615.kz.homebank.mobile.staging",
+        "paths": [
+          "/path-for-redirectionl/*"
+        ]
+      },
+      {
+        "appID": "2DYT2C564U.legalce.bar.zan",
+        "paths": [
+          "*",
+          "/"
+        ]
+      }
+    ]
+  }
 }
